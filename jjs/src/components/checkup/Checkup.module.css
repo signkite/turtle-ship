@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+.background {
+  background-image: url(../../images/background.png);
+  background-size: 100% 100%;
+}
+
+.container {
+  width: 100%;
+  height: 590px;
+}
+
+.checkupTable {
+  width: 500px;
+  height: 550px;
+  margin: 100px auto 20px;
+}
+
+.tableIndex {
+  display: flex;
+  border-bottom: 5px #61805c solid;
+  padding-bottom: 8px;
+  text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.dateIndex {
+  width: 150px;
+}
+
+.resultIndex {
+  width: 100px;
+}
+
+.hospitalIndex {
+  width: 250px;
+}
+
+.checkupTable li {
+  display: flex;
+  font-size: 18px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: #222;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+}
+
+.checkupTable li:nth-child(2n + 1) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.date {
+  width: 150px;
+}
+
+.result {
+  width: 100px;
+}
+
+.hospital {
+  width: 250px;
+}

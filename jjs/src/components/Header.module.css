@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Orbit&display=swap');
+
+.headerContainer {
+  display: flex;
+  height: 120px;
+  background-color: #DDEEDD;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 97px;
+  height: 100px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.titles {
+  margin-left: 48px;
+  cursor: pointer;
+}
+
+.mainTitle {
+  width: 5em;
+  font-family: 'Gasoek One', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #426142;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subTitle {
+  width: 10em;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #999;
+  color: #8aac8a;
+  margin-top: 0;
+}
+
+.userStateContainer {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.user {
+  color: #131;
+  font-family: 'Gowun dodum', sans-serif;
+}
+
+.divBar {
+  width: 2px;
+  height: 15px;
+  margin: 0 15px;
+  background-color: #999;
+}
+
+.subMenu {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 40px;
+  padding-top: 3px;
+  border-top: #fff 2px solid;
+  border-bottom: #fff 2px solid;
+  background-color: #e5f5e5;
+  font-family: 'Gowun Dodum', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.subMenu div {
+  text-align: center;
+  width: 30%;
+  height: 20px;
+}
+
+.subMenu .sepBar {
+  width: 2px;
+  height: 20px;
+  background-color: #d4f0d4;
+}

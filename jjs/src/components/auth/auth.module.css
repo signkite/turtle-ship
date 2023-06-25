@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+.container {
+  width: 100%;
+  text-align: center; /* 로그인 안내 문자 중앙 정렬 */
+}
+
+.info {
+  margin: 70px 0 30px;
+  color: #426142;
+  font-size: 20px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 500px;
+  height: 300px;
+  border: #8AAC8B solid 3px;
+  border-radius: 30px;
+  padding-top: 20px;
+  margin: auto; /* 블록요소 중앙정렬 */
+  text-align: center; /* 하위 요소 중앙 정렬 */
+}
+
+input {
+  width: 400px;
+  height: 36px;
+  margin-top: 24px;
+  padding-left: 20px;
+  background-color: #DED;
+  border: none;
+}
+
+.btn {
+  width: 430px;
+  height: 48px;
+  margin-top: 24px;
+  color: #DED;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Gowun Dodum', sans-serif;
+  background-color: #426142;
+  cursor: pointer;
+}
+
+.msgContainer {
+  margin: 20px 50px 20px 0;
+  text-align: right;
+}
+
+.msg {
+  margin-left: 16px;
+  font-family: 'Gowun Dodum', sans-serif;
+  color: #426142;
+  text-decoration: underline;
+}
+

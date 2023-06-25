@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+.container {
+  height: 600px;
+  padding-top: 150px;
+  text-align: center;
+  background-image: url('../../images/background.png');
+  background-size: 100% 100%;
+  font-family: 'Gasoek One', sans-serif;
+  font-size: 48px;
+  color: #426142;
+}
+
+.guide {
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: sans-serif;
+  color: #204020;
+}
